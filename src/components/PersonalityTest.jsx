@@ -216,7 +216,7 @@ const PersonalityTest = ({ currentUser, selectedFriend, mode = 'evaluation', onC
           <div className="section">
             <h3 className="section-title">القسم الثالث</h3>
             <div className="question-card">
-              <p className="question-text">اكتب تعليقك النهائي</p>
+              <p className="question-text">ماذا تحب ان توجه لـ {selectedFriend.name} في بداية عام 2026</p>
               <textarea
                 value={section3Comment}
                 onChange={(e) => setSection3Comment(e.target.value)}
